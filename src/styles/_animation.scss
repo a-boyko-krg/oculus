@@ -1,0 +1,28 @@
+@keyframes line-text{
+   from{
+     transform: translateX(115%); 
+     transform-origin: left center ;
+   }
+   to{
+      transform: translateX(-115%); 
+      transform-origin: right center ;
+   }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}

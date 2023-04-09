@@ -1,0 +1,62 @@
+@import './reset.scss';
+@import './animation.scss';
+
+
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold', sans-serif;
+  src: url(../fonts/helvetica-bold.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5c5c5e;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+}
+
+@import '../components/burger/burger.scss';
+@import '../components/header/header.scss';
+@import '../components/hero/hero.scss';
+@import '../components/buyButton/buyButton';
+@import '../components/tabs/tabs.scss';
+@import '../components/games/games.scss';
+@import '../components/buy/buy.scss';
+@import '../components/equip/equip.scss';
+@import '../components/promo/promo.scss';
+@import '../components/accessories/accessories.scss';
+@import '../components/footer/footer.scss';
+@import '../components/contacts/contacts.scss';
+@import './adaptive.scss';
